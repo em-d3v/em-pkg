@@ -1,3 +1,11 @@
+# IDE's
+**/.idea
+**/.vs
+**/.vscode
+**/.project
+**/.settings
+**/*.npm*
+
 # Logs
 logs
 *.log
