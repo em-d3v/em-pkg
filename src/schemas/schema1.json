@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "game-resources",
+    "title": "Game Recources",
+    "description": "Collection of Game Resources",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string"
+            },
+            "type": {
+                "title": "Resource Type",
+                "description": "",
+                "type": "string"
+            },
+            "src": {
+
+                "description": "Source FilePath",
+                "type": "string",
+                "format": "src"
+            },
+            "value":{"type":}
+        }
+    },
+    "$comment": "For Template Game"
+}
