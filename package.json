@@ -1,28 +1,41 @@
 {
-  "name": "my-lib-pkg",
-  "version": "1.0.0",
+  "name": "@em-d3v-org/my-lib",
+  "version": "0.0.0",
   "description": "my first lib package",
-  "main": "src/index.js",
-  "readme": "./README.md",
-  "scripts": {
-    "test": "",
-    "prepack": "npmignore --auto"
-  },
   "author": {
-    "name": "em-d3v"
+    "name": "em-d3velop-9836"
+  },
+
+  "directories": {
+    "doc": "docs",
+    "lib": "src"
   },
   "files": [
     "src/",
     "bin/",
     "build/"
   ],
+  "main": "src/index.js",
+  "readme": "./README.md",
+  "scripts": {
+    "test": "echo to be implemented",
+    "build": "node scripts/build.js",
+    "prepack": "npmignore --auto"
+  },
+
+
   "publishConfig": {
+    "access": "public",
     "ignore": [
       "config/",
       ".github"
     ]
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/em-d3v/my-lib.git",
+    "directory": "."
+  },
   "dependencies": {
     "events": "^3.3.0"
   },

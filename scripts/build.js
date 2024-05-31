@@ -1,9 +1,11 @@
 /**
  * build script
+ *
  */
 
 
+
 function build(){
-    console.log("Build Script Executed")
+    console.log("Build Script Executed");
 }
 build();
