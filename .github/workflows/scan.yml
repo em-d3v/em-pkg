@@ -1,3 +1,4 @@
+  name: "Code Scan"
   on:
     push:
       branches: [$default-branch]
