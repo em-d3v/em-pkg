@@ -7,8 +7,9 @@ on:
   workflow_dispatch:
 
 jobs:
+  # build package
   build:
-    name: "Build Package"
+    name: Build Package
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -20,4 +21,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+      - run: npm ci
+      - run: npm test
 
