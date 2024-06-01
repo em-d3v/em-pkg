@@ -5,7 +5,10 @@
   "author": {
     "name": "em-d3velop-9836"
   },
-
+  "bugs": {
+    "url": "https://github/em-d3v/my-lib/issues"
+  },
+  "license": "MIT",
   "directories": {
     "doc": "docs",
     "lib": "src"
@@ -22,8 +25,6 @@
     "build": "node scripts/build.js",
     "prepack": "npmignore --auto"
   },
-
-
   "publishConfig": {
     "access": "public",
     "ignore": [
@@ -37,10 +38,12 @@
     "directory": "."
   },
   "dependencies": {
+    "@types/node": "^20.13.0",
     "events": "^3.3.0"
   },
   "devDependencies": {
     "npmignore": "^0.3.1",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0"
   }
 }
