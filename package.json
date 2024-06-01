@@ -1,6 +1,6 @@
 {
   "name": "@em-d3v-org/my-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "my first lib package",
   "author": {
     "name": "em-d3velop-9836"
@@ -16,7 +16,7 @@
     "lib": "src"
   },
   "files": [
-    "src/",
+    "src/index.js",
     "bin/",
     "build/"
   ],
