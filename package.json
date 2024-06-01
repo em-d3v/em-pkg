@@ -1,10 +1,12 @@
 {
   "name": "@em-d3v-org/my-lib",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "my first lib package",
   "author": {
     "name": "em-d3velop-9836"
   },
+
+  "keywords": ["lib"],
   "bugs": {
     "url": "https://github/em-d3v/my-lib/issues"
   },
@@ -27,10 +29,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "ignore": [
-      "config/",
-      ".github"
-    ]
+    "ignore": ["src/game","src/tests"]
   },
   "repository": {
     "type": "git",

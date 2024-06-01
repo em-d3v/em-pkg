@@ -5,7 +5,8 @@
 **/.project
 **/.settings
 **/*.npm*
-**/*.kra
+**/*.kra*
+
 
 # Logs
 logs

@@ -1,4 +1,4 @@
-  name: "Code Scan"
+  name: "Code Scan (eslint)"
   on:
     push:
       branches: [$default-branch]
