@@ -47,11 +47,11 @@ Templates:
 
 ### NPM
 
-![status](https://nodei.co/npm/@em-d3v-org/my-lib.svg)
+![status](https://nodei.co/npm/em-pkg.svg)
 
-![version](https://img.shields.io/npm/v/@em-d3v-org/my-lib?logo=npm&label=version) <br>
-![unpack size](https://img.shields.io/npm/unpacked-size/@em-d3v-org/my-lib?logo=npm&label=unpacked%20size) <br>
-![version](https://img.shields.io/npm/l/@em-d3v-org/my-lib?logo=npm&label=license)
+![version](https://img.shields.io/npm/v/em-pkg?logo=npm&label=version) <br>
+![unpack size](https://img.shields.io/npm/unpacked-size/em-pkg?logo=npm&label=unpacked%20size) <br>
+![version](https://img.shields.io/npm/l/em-pkg?logo=npm&label=license)
 
 ### Other
 <img src="https://img.shields.io/badge/Javascript-orange?logo=javascript" height="25">
