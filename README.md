@@ -3,35 +3,75 @@
     <h1 align="center" style="color: red;">My Library Package</h1>
 </div>
 
-![license](https://custom-icon-badges.demolab.com/github/license/em-d3v/my-lib?logo=law)
-![issues](https://custom-icon-badges.demolab.com/github/issues/em-d3v/my-lib?logo=issue)
-![forks](https://img.shields.io/github/forks/em-d3v/my-lib)
-![contributors](https://img.shields.io/github/contributors/em-d3v/my-lib)
-![release](https://img.shields.io/github/v/release/em-d3v/my-lib?logo)
+<a></a>
+<div align="center">
 
-![main](https://img.shields.io/github/actions/workflow/status/em-d3v/my-lib/main.yml?logo=github&logoColor=fff)
-![main](https://img.shields.io/github/actions/workflow/status/em-d3v/my-lib/scan.yml?logoColor=fff&label=code%20scan&logo=github)
-![last-commit](https://custom-icon-badges.demolab.com/github/last-commit/em-d3v/my-lib?logo=commit)
+[//]: # (<img alt="github" src="https://custom-icon-badges.demolab.com/static/v1?logo=repo">)
 
-![status](https://nodei.co/npm/@em-d3v-org/my-lib.png)
+<a href="https://github.com/em-d3v/em-pkg">
+<img alt="github" height="25" src="https://custom-icon-badges.demolab.com/badge/Github-aaa?logo=repo&style=plastic">
+</a>
+<a href="https://www.npmjs.com/package/em-pkg">
+<img alt="github" height="25" src="https://custom-icon-badges.demolab.com/badge/npm-cb3837?logo=npm&logoColor=white&style=plastic">
+</a>
+<br/>
+<hr/>
+<img alt="license" src="https://custom-icon-badges.demolab.com/github/license/em-d3v/em-pkg?logo=law">
+<img alt="issues" src="https://custom-icon-badges.demolab.com/github/issues/em-d3v/em-pkg?logo=issue">
+<img alt="contrib" src="https://img.shields.io/github/contributors/em-d3v/em-pkg">
+<img alt="forks" src="https://img.shields.io/github/forks/em-d3v/em-pkg">
+<img alt="forks" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github&logoColor=fff">
 
-[//]: # (![status]&#40;https://nodei.co/npm/@em-d3velop-9836/my-lib.png&#41;)
+<img alt="commit" src="https://custom-icon-badges.demolab.com/github/last-commit/em-d3v/em-pkg?logo=commit">
+<img alt="code size" src="https://img.shields.io/github/languages/code-size/em-d3v/em-pkg">
+<img alt="security" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/security.yml?logoColor=fff&label=security&logo=github">
+<br>
+<img alt="release" src="https://img.shields.io/github/v/release/em-d3v/em-pkg?logo=nodedotjs">
+</div>
+<div align="center">
+  <img alt="status" src="https://nodei.co/npm/em-pkg.png">
+<br>
+  <img alt="version" src="https://img.shields.io/npm/v/em-pkg?logo=npm">
 
-![version](https://img.shields.io/npm/v/@em-d3v-org/my-lib?logo=npm)
-![version](https://img.shields.io/npm/v/@em-d3v-org/my-lib?logo=npm)
+</div>
 
-My collection of classes, scripts, enums, etc. See [docs](https://github.com/em-d3v/my-lib/docs) for more information
 
-**Note: This package is WIP. It may not be updated frequently.**
+
+![main](https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github&logoColor=fff)
+
+
+My collection of classes, scripts, enums, etc. See [docs](https://github.com/em-d3v/em-pkg/tree/main/docs) for more information
+
+I made this pkg so that I can reuse styles, js code, etc. for my other projects.
+
+Contains:
+- modules (js/ts)
+- css style sheets
+- tools
+
+style sheets:
+```
+<link rel="stylesheet" href="https://unpkg.com/em-pkg@:version/src/styles/[sheetname].css">
+```
+scripts:
+```
+<script type="importmap">
+{
+  "em-pkg": "https://"
+}
+</script>
+```
+
+**Note: I am the sole developer of this package, so this may get messy. May also contain errors.**
 
 Github
 
 [//]: # (<iframe src=""></iframe>)
 
-[//]: # (> ![discussions]&#40;https://img.shields.io/github/discussions/em-d3v/my-lib&#41;)
+[//]: # (> ![discussions]&#40;https://img.shields.io/github/discussions/em-d3v/em-pkg&#41;)
 
  [![license](https://custom-icon-badges.demolab.com/static/v1?label&message=LICENSE&logo=law&color=blue)](LICENSE.md)
- [![changelog](https://custom-icon-badges.demolab.com/static/v1?label&message=CHANGELOG&logo=log&color=blue)](CHANGELOG.md)
+ [![changelog](https://custom-icon-badges.demolab.com/badge/CHANGELOG-blue?logo=log)](CHANGELOG.md)
 
 [//]: # ( [![contributors]&#40;https://custom-icon-badges.demolab.com/static/v1?label&message=CONTRIBUTING&logo=pencil&#41;]&#40;./CONTRIBUTING.md&#41;)
 

@@ -20,27 +20,28 @@ Templates:
 ### Github
 
 <img alt="badge" height="" src="https://img.shields.io/badge/static_badge-ffffff">
-<img alt="badge" height="" src="https://img.shields.io/github/actions/workflow/status/em-d3v/my-lib/main.yml?label=Main">
-<img alt="badge" height="" src="https://img.shields.io/github/actions/workflow/status/em-d3v/my-lib/main.yml?label=build">
-<img alt="badge" height="" src="https://img.shields.io/github/actions/workflow/status/em-d3v/my-lib/main.yml?label=build">
+<img alt="badge" height="" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?label=Main">
+<img alt="badge" height="" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?label=build">
+<img alt="badge" height="" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?label=build">
 
-[//]: # (<img alt="badge" height="" src="https://img.shields.io/github/em-d3v/my-lib/.github/badges.yml?label=build">)
+[//]: # (<img alt="badge" height="" src="https://img.shields.io/github/em-d3v/em-pkg/.github/badges.yml?label=build">)
 
-![license](https://custom-icon-badges.demolab.com/github/license/em-d3v/my-lib?logo=law)
-![forks](https://img.shields.io/github/forks/em-d3v/my-lib)
-![release](https://img.shields.io/github/v/release/em-d3v/my-lib)
-![discussions](https://img.shields.io/github/discussions/em-d3v/my-lib)
-![last-commit](https://custom-icon-badges.demolab.com/github/last-commit/em-d3v/my-lib?logo=commit)
-![last-commit](https://custom-icon-badges.demolab.com/github/pull-requests/raw/em-d3v/my-lib?logo=commit)
-![last-commit](https://custom-icon-badges.demolab.com/github/em-d3v/my-lib?logo=commit)
-![contributors](https://img.shields.io/github/contributors/em-d3v/my-lib?logo=contributorcovenant)
-![issues](https://img.shields.io/github/issues/em-d3v/my-lib?logo=github)
+![license](https://custom-icon-badges.demolab.com/github/license/em-d3v/em-pkg?logo=law)
+![forks](https://img.shields.io/github/forks/em-d3v/em-pkg)
+![release](https://img.shields.io/github/v/release/em-d3v/em-pkg)
+![discussions](https://img.shields.io/github/discussions/em-d3v/em-pkg)
+![last-commit](https://custom-icon-badges.demolab.com/github/last-commit/em-d3v/em-pkg?logo=commit)
+![last-commit](https://custom-icon-badges.demolab.com/github/pull-requests/raw/em-d3v/em-pkg?logo=commit)
+![last-commit](https://custom-icon-badges.demolab.com/github/em-d3v/em-pkg?logo=commit)
+![contributors](https://img.shields.io/github/contributors/em-d3v/em-pkg?logo=contributorcovenant)
+![issues](https://img.shields.io/github/issues/em-d3v/em-pkg?logo=github)
 
 ![badge](https://img.shields.io/badge/Github-black?logo=GitHub&logoColor=fff)
-[![badge](https://custom-icon-badges.demolab.com/badge/my--lib-magenta?logo=repo&logoColor=fff)](https://github.com/em-dev/my-lib)
-![build](https://img.shields.io/github/actions/workflow/status/em-d3v/my-lib/main.yml?logo=github)
-![build](https://img.shields.io/github/actions/workflow/status/em-d3v/my-lib/main.yml?logo=github)
-![code size](https://img.shields.io/github/languages/code-size/em-d3v/my-lib)
+
+[//]: # ([![badge]&#40;https://custom-icon-badges.demolab.com/badge/my--lib-magenta?logo=repo&logoColor=fff&#41;]&#40;https://github.com/em-dev/em-pkg&#41;)
+![build](https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github)
+![build](https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github)
+![code size](https://img.shields.io/github/languages/code-size/em-d3v/em-pkg)
 ![badge](https://custom-icon-badges.demolab.com/static/v1?label=static&message=badge&logo=circle)
 
 [//]: # (![build]&#40;https://img.shields.io/github/actions/workflow/status/em-d3v/tools-lib/main.yml?logo=actions&#41;)

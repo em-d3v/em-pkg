@@ -1,12 +1,19 @@
 {
-  "name": "@em-d3v-org/my-lib",
-  "version": "0.1.0",
-  "description": "my first lib package",
+  "name": "em-pkg",
+  "version": "0.0.0",
+  "description": "my first package",
   "author": {
     "name": "em-d3velop-9836"
   },
-
-  "keywords": ["lib"],
+  "type": "module",
+  "keywords": [
+    "lib",
+    "em-pkg",
+    "my package",
+    "packages",
+    "npm",
+    "styles"
+  ],
   "bugs": {
     "url": "https://github/em-d3v/my-lib/issues"
   },
@@ -15,11 +22,7 @@
     "doc": "docs",
     "lib": "src"
   },
-  "files": [
-    "src/index.js",
-    "bin/",
-    "build/"
-  ],
+
   "main": "src/index.js",
   "readme": "./README.md",
   "scripts": {
@@ -29,11 +32,14 @@
   },
   "publishConfig": {
     "access": "public",
-    "ignore": ["src/game","src/tests"]
+    "ignore": [
+      "src/game",
+      "src/tests"
+    ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/em-d3v/my-lib.git",
+    "url": "https://github.com/em-d3v/em-pkg.git",
     "directory": "."
   },
   "dependencies": {
@@ -41,7 +47,9 @@
     "events": "^3.3.0"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
     "npmignore": "^0.3.1",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.4.5",
     "webpack": "^5.91.0"
   }
