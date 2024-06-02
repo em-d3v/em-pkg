@@ -7,7 +7,7 @@
 **/.settings
 **/*.npm*
 **/*.kra*
-*/*.css.map
+**/*.css.map
 **/*.scss
 **/scripts
 **/*.gitignore
