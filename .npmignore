@@ -17,6 +17,7 @@ tsconfig.json
 **/docs
 **/src/game
 **/config
+**/*.config.js
 /.github
 # Logs
 logs

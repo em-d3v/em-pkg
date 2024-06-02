@@ -22,8 +22,10 @@
     "doc": "docs",
     "lib": "src"
   },
-
-  "main": "src/index.js",
+  "files": [
+    "src/styles","src/lib","src/schemas",
+    "LICENSE.md", "README.md"
+  ],
   "readme": "./README.md",
   "scripts": {
     "test": "echo to be implemented",
@@ -37,6 +39,7 @@
       "src/tests"
     ]
   },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/em-d3v/em-pkg.git",

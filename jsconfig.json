@@ -8,7 +8,6 @@
     }
   },
   "files": [
-    "./src/index.js"
   ],
   "include": ["src/**/*.js"],
   "exclude": ["node_modules",""],
