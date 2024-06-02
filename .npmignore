@@ -8,8 +8,16 @@
 **/*.npm*
 **/*.kra*
 */*.css.map
-
-
+**/*.scss
+**/scripts
+**/*.gitignore
+jsconfig.json
+tsconfig.json
+**/CODE_OF_CONDUCT.md
+**/docs
+**/src/game
+**/config
+/.github
 # Logs
 logs
 *.log

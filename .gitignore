@@ -8,6 +8,7 @@
 **/*.kra*
 **/src/game
 **/build
+**/*.css.map
 
 # Logs
 logs
