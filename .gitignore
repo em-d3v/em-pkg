@@ -7,7 +7,7 @@
 **/*.npmrc
 **/*.kra*
 **/src/game
-
+**/build
 
 # Logs
 logs

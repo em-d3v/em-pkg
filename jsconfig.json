@@ -1,6 +1,19 @@
 {
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "/build/",
+    "paths": {
+      "schemas": ["src/schemas"],
+      "styles": ["src/styles"]
+    }
+  },
   "files": [
     "./src/index.js"
   ],
-  "include": ["src/**/*.js"]
+  "include": ["src/**/*.js"],
+  "exclude": ["node_modules",""],
+  "buildOptions": {
+
+  }
+
 }

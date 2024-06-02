@@ -1,11 +1,21 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "typeRoots": ["./src/**/@types"]
-  }
+    "typeRoots": ["./src/types"],
+    "declaration": true,
+    "declarationDir": "./build",
+    "declarationMap": true,
+    "rootDir": "./src",
+    "outDir": "./build",
+    "paths": {
+      "styles": ["/styles"],
+      "schemas": ["/schemas"],
+      "lib": ["/lib"]
+    }
+  },
+  "exclude": ["src/game"]
 }
