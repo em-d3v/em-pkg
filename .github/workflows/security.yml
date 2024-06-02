@@ -1,4 +1,5 @@
 # https://docs.github.com/en/enterprise-cloud@latest/code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api
+name: Security Workflow
 on:
   workflow_dispatch:
 
@@ -9,6 +10,7 @@ permissions:
 
 jobs:
   dependency-review:
+    name: "dependency review"
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout repository'
@@ -18,6 +20,6 @@ jobs:
         # Commonly enabled options, see https://github.com/actions/dependency-review-action#configuration-options for all available options.
         with:
           comment-summary-in-pr: always
-        #   fail-on-severity: moderate
-        #   deny-licenses: GPL-1.0-or-later, LGPL-2.0-or-later
+          fail-on-severity: moderate
+          deny-licenses: GPL-1.0-or-later, LGPL-2.0-or-later
         #   retry-on-snapshot-warnings: true

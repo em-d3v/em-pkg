@@ -13,7 +13,7 @@
 ![main](https://img.shields.io/github/actions/workflow/status/em-d3v/my-lib/scan.yml?logoColor=fff&label=code%20scan&logo=github)
 ![last-commit](https://custom-icon-badges.demolab.com/github/last-commit/em-d3v/my-lib?logo=commit)
 
-![status](https://nodei.co/npm/@em-d3v-org/my-lib.png?)
+![status](https://nodei.co/npm/@em-d3v-org/my-lib.png)
 
 [//]: # (![status]&#40;https://nodei.co/npm/@em-d3velop-9836/my-lib.png&#41;)
 

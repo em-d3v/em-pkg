@@ -4,8 +4,9 @@
 **/.vscode
 **/.project
 **/.settings
-**/*.npm*
+**/*.npmrc
 **/*.kra*
+**/src/game
 
 
 # Logs
@@ -138,4 +139,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-.npmignore
