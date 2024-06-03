@@ -3,5 +3,7 @@
  */
 
 import Entity from "./Entity";
+import Player from "./Player";
+import Npc from "./Npc";
 
-export {Entity};
+export {Entity, Player,Npc};
