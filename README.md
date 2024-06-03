@@ -20,6 +20,7 @@
 <img alt="issues" src="https://custom-icon-badges.demolab.com/github/issues/em-d3v/em-pkg?logo=issue">
 <img alt="contrib" src="https://img.shields.io/github/contributors/em-d3v/em-pkg">
 <img alt="forks" src="https://img.shields.io/github/forks/em-d3v/em-pkg">
+<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/em-d3v/em-pkg?logo=Github">
 
 <img alt="commit" src="https://custom-icon-badges.demolab.com/github/last-commit/em-d3v/em-pkg?logo=commit">
 <img alt="code size" src="https://img.shields.io/github/languages/code-size/em-d3v/em-pkg">
@@ -33,6 +34,9 @@
   <img alt="status" src="https://nodei.co/npm/em-pkg.png">
 <br>
   <img alt="version" src="https://img.shields.io/npm/v/em-pkg?logo=npm">
+  <img alt="version" src="https://img.shields.io/npm/unpacked-size/em-pkg?logo=npm">
+  <img alt="version" src="https://img.shields.io/npm/unpacked-size/em-pkg?logo=npm">
+  <img alt="version" src="https://img.shields.io/npm/l/em-pkg?logo=npm">
 
 </div>
 
@@ -72,7 +76,7 @@ Github
 [//]: # (> ![discussions]&#40;https://img.shields.io/github/discussions/em-d3v/em-pkg&#41;)
 
  [![license](https://custom-icon-badges.demolab.com/static/v1?label&message=LICENSE&logo=law&color=blue)](LICENSE.md)
- [![changelog](https://custom-icon-badges.demolab.com/badge/CHANGELOG-blue?logo=log)](CHANGELOG.md)
+ [![changelog](https://custom-icon-badges.demolab.com/badge/CHANGELOG-blue?logo=log)](docs/CHANGELOG.md)
 
 [//]: # ( [![contributors]&#40;https://custom-icon-badges.demolab.com/static/v1?label&message=CONTRIBUTING&logo=pencil&#41;]&#40;./CONTRIBUTING.md&#41;)
 
