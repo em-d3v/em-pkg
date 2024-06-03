@@ -2,8 +2,8 @@
  * @module Game - Game Module
  */
 
-import Entity from "./Entity";
-import Player from "./Player";
-import Npc from "./Npc";
+import {Entity, Player, Npc} from "./Character";
 
-export {Entity, Player,Npc};
+export {
+    Entity, Player, Npc
+};
