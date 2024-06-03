@@ -20,10 +20,11 @@
 <img alt="issues" src="https://custom-icon-badges.demolab.com/github/issues/em-d3v/em-pkg?logo=issue">
 <img alt="contrib" src="https://img.shields.io/github/contributors/em-d3v/em-pkg">
 <img alt="forks" src="https://img.shields.io/github/forks/em-d3v/em-pkg">
-<img alt="forks" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github&logoColor=fff">
 
 <img alt="commit" src="https://custom-icon-badges.demolab.com/github/last-commit/em-d3v/em-pkg?logo=commit">
 <img alt="code size" src="https://img.shields.io/github/languages/code-size/em-d3v/em-pkg">
+<br>
+<img alt="build" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github&logoColor=fff">
 <img alt="security" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/security.yml?logoColor=fff&label=security&logo=github">
 <br>
 <img alt="release" src="https://img.shields.io/github/v/release/em-d3v/em-pkg?logo=nodedotjs">
@@ -36,8 +37,6 @@
 </div>
 
 
-
-![main](https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github&logoColor=fff)
 
 
 My collection of classes, scripts, enums, etc. See [docs](https://github.com/em-d3v/em-pkg/tree/main/docs) for more information
