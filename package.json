@@ -28,7 +28,7 @@
   ],
   "readme": "./README.md",
   "scripts": {
-    "test": "echo to be implemented",
+    "test": "node src/test/index.js",
     "build": "node scripts/build.js",
     "prepack": "npmignore --auto"
   },
