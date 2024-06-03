@@ -25,7 +25,7 @@
 <img alt="code size" src="https://img.shields.io/github/languages/code-size/em-d3v/em-pkg">
 <br>
 <img alt="build" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github&logoColor=fff">
-<img alt="security" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/security.yml?logoColor=fff&label=security&logo=github">
+<img alt="security" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/security.yml?logoColor=fff&label=scan&logo=github">
 <br>
 <img alt="release" src="https://img.shields.io/github/v/release/em-d3v/em-pkg?logo=nodedotjs">
 </div>

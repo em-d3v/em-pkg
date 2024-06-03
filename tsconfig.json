@@ -15,7 +15,9 @@
       "styles": ["/styles"],
       "schemas": ["/schemas"],
       "lib": ["/lib"]
-    }
+    },
+    "sourceRoot": "./src",
+    "preserveConstEnums": true
   },
   "exclude": ["src/game"]
 }
