@@ -24,7 +24,7 @@
 <img alt="commit" src="https://custom-icon-badges.demolab.com/github/last-commit/em-d3v/em-pkg?logo=commit">
 <img alt="code size" src="https://img.shields.io/github/languages/code-size/em-d3v/em-pkg">
 <br>
-<img alt="build" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github&logoColor=fff">
+<img alt="build" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/main.yml?logo=github">
 <img alt="security" src="https://img.shields.io/github/actions/workflow/status/em-d3v/em-pkg/security.yml?logoColor=fff&label=scan&logo=github">
 <br>
 <img alt="release" src="https://img.shields.io/github/v/release/em-d3v/em-pkg?logo=nodedotjs">
@@ -56,9 +56,11 @@ scripts:
 ```
 <script type="importmap">
 {
-  "em-pkg": "https://"
+  "em-pkg": "https://https://cdn.jsdelivr.net/npm/em-pkg@:version/build/:pathToFile"
 }
 </script>
+
+<script src="https://https://cdn.jsdelivr.net/npm/em-pkg@:version/build/:pathToFile"></script>
 ```
 
 **Note: I am the sole developer of this package, so this may get messy. May also contain errors.**

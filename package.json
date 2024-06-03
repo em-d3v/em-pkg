@@ -35,7 +35,8 @@
     "access": "public",
     "ignore": [
       "src/game",
-      "src/tests"
+      "src/tests",
+      "src/**/*.scss"
     ]
   },
 

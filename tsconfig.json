@@ -11,10 +11,11 @@
     "declarationMap": true,
     "rootDir": "./src",
     "outDir": "./build",
+    "baseUrl": ".",
     "paths": {
-      "styles": ["/styles"],
-      "schemas": ["/schemas"],
-      "lib": ["/lib"]
+      "styles": ["src/styles"],
+      "schemas": ["src/schemas"],
+      "lib": ["src/lib"]
     },
     "sourceRoot": "./src",
     "preserveConstEnums": true
