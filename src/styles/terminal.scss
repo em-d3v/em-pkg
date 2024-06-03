@@ -1,7 +1,19 @@
+/*Import fonts here*/
 
+
+/*Root*/
 :root{
-  --theme-color: #000;
+  --theme-color: #fff;
   --theme-bg: #000;
+  --caret: ">"
+}
+
+.static{
+
+}
+
+@keyframes blink {
+
 }
 
 

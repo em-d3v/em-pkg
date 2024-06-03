@@ -1,6 +1,11 @@
+/*Import fonts here*/
+/*Root*/
 :root {
-  --theme-color: #000;
+  --theme-color: #fff;
   --theme-bg: #000;
+  --caret: ">" ;
 }
+
+@keyframes blink {}
 
 /*# sourceMappingURL=terminal.css.map */
