@@ -26,6 +26,9 @@ Templates:
 
 [//]: # (<img alt="badge" height="" src="https://img.shields.io/github/em-d3v/em-pkg/.github/badges.yml?label=build">)
 
+<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/em-d3v/em-pkg">
+
+
 ![license](https://custom-icon-badges.demolab.com/github/license/em-d3v/em-pkg?logo=law)
 ![forks](https://img.shields.io/github/forks/em-d3v/em-pkg)
 ![release](https://img.shields.io/github/v/release/em-d3v/em-pkg)
@@ -35,6 +38,7 @@ Templates:
 ![last-commit](https://custom-icon-badges.demolab.com/github/em-d3v/em-pkg?logo=commit)
 ![contributors](https://img.shields.io/github/contributors/em-d3v/em-pkg?logo=contributorcovenant)
 ![issues](https://img.shields.io/github/issues/em-d3v/em-pkg?logo=github)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/em-d3v/em-pkg/total)
 
 ![badge](https://img.shields.io/badge/Github-black?logo=GitHub&logoColor=fff)
 
@@ -51,7 +55,7 @@ Templates:
 ![status](https://nodei.co/npm/em-pkg.svg)
 
 ![version](https://img.shields.io/npm/v/em-pkg?logo=npm&label=version) <br>
-![unpack size](https://img.shields.io/npm/unpacked-size/em-pkg?logo=npm&label=unpacked%20size) <br>
+![unpack size](https://img.shields.io/npm/unpacked-size/em-pkg?logo=npm) <br>
 ![version](https://img.shields.io/npm/l/em-pkg?logo=npm&label=license)
 
 ### Other
