@@ -1,24 +1,29 @@
-name: publish pkg
+name: publish
 on:
   release:
     types: [ created ]
 
 jobs:
-  build:
-    name: Build Package
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [ 18.x, 20.x ]
-    steps:
-      - uses: actions/checkout@v4
-      - name: "Set up Node.js"
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-      - run: npm ci
-      - run: npm test
+  build: # call main.yml
+    uses: "em-d3v/em-pkg/.github/workflows/main.yml@main"
+#    name: Build Package
+#    runs-on: ubuntu-latest
+#    strategy:
+#      matrix:
+#        node-version: [ 18.x, 20.x ]
+#    steps:
+#      - uses: actions/checkout@v4
+#      - name: "Set up Node.js"
+#        uses: actions/setup-node@v3
+#        with:
+#          node-version: ${{ matrix.node-version }}
+#          cache: 'npm'
+#
+#      - name: "Install Package"
+#        run: npm ci
+#      - name: "Build"
+#        run: npm run build
+#      - run: npm test
   publish-npm:
     runs-on: ubuntu-latest
     name: publish to npm
