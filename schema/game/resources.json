@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "game-resources",
+  "title": "Game Resources",
+  "description": "Collection of Game Resources",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "type": {
+        "title": "Resource Type",
+        "description": "File Extension of Your own Resource Type",
+        "type": "string"
+      },
+      "src": {
+        "title": "source path",
+        "description": "Source FilePath (Use if Resource is a File)",
+        "type": ["string", "null"],
+        "format": "src"
+      },
+      "value":{
+        "title": "Resource Value",
+        "description": "Use this if your resource is a value",
+        "type":["boolean","object","string","array","number","null"]
+      }
+    }
+  },
+  "$comment": "Use this when creating a resource map for game"
+}

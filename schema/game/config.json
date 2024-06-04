@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "game-resources",
+  "title": "Game Resources",
+  "description": "Collection of Game Resources",
+  "type": "object",
+  "definitions": {
+    "canvas": {
+      "title": "canvas",
+      "description": "html object for canvas",
+      "type": "object"
+    },
+    "server": {
+      "title": "server",
+      "description": "for web development",
+      "type": "object",
+      "properties": {
+        "protocol": {
+          "title": "web protocol",
+          "type": "string",
+          "description": "http/https/ws"
+        },
+        "host": {
+          "title": "server host",
+          "type": "string",
+          "description": ""
+        },
+        "port": {
+          "title": "server port",
+          "description": "port for server",
+          "type": ["string","number"]
+        }
+      }
+    }
+  }
+}
