@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": ".",
     "outDir": "/build/",
     "paths": {
       "schemas": ["src/schemas"],
