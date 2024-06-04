@@ -1,0 +1,9 @@
+name: Test
+on:
+  workflow_dispatch:
+
+jobs:
+  test_build:
+#    name: Test Build
+#    runs-on: ubuntu-latest
+    uses: "em-d3v/em-pkg/.github/workflows/main.yml@main"
