@@ -1,24 +1,40 @@
 {
   "compilerOptions": {
+    "module": "ES6",
     "target": "es2016",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "removeComments": false,
     "strict": true,
     "skipLibCheck": true,
-    "typeRoots": ["./src/types"],
-    "declaration": true,
-    "declarationDir": "./build",
-    "declarationMap": true,
+    "typeRoots": [
+      "./src/types"
+    ],
+    "declaration": false,
+    "declarationDir": "./types",
+    "declarationMap": false,
+    "sourceMap": true,
     "rootDir": "./src",
-    "outDir": "./build",
+    "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "styles": ["src/styles"],
-      "schemas": ["src/schemas"],
-      "lib": ["src/lib"]
+      "styles": [
+        "src/styles"
+      ],
+      "schemas": [
+        "src/schemas"
+      ],
+      "lib": [
+        "src/lib"
+      ]
     },
     "sourceRoot": "./src",
     "preserveConstEnums": true
   },
-  "exclude": ["src/game"]
+  "include": [
+    "src/lib/*"
+  ],
+  "exclude": [
+    "src/game"
+  ]
 }
