@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "module": "ES6",
     "target": "es2016",
     "esModuleInterop": true,
@@ -14,21 +15,10 @@
     "declarationDir": "./types",
     "declarationMap": false,
     "sourceMap": true,
-    "rootDir": "./src",
+    "rootDir": "./src/lib",
+    "sourceRoot": "./src/lib/",
     "outDir": "./dist",
     "baseUrl": ".",
-    "paths": {
-      "styles": [
-        "src/styles"
-      ],
-      "schemas": [
-        "src/schemas"
-      ],
-      "lib": [
-        "src/lib"
-      ]
-    },
-    "sourceRoot": "./src",
     "preserveConstEnums": true
   },
   "include": [

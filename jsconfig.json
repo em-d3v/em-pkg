@@ -5,7 +5,8 @@
     "paths": {
       "schemas": ["src/schemas"],
       "styles": ["src/styles"]
-    }
+    },
+    "allowJs": true
   },
   "files": [
   ],
