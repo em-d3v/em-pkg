@@ -1,0 +1,64 @@
+// gui template
+/*
+
+  download this to your project to use with em-gui module
+*/
+:root{
+  --theme-color: #000;// for font-color
+  --theme-bg: #000;// background color
+  --theme-border: #000;// border-color
+  --stroke-color: #000;//for text outline
+  --theme-border-style: solid;
+}
+@mixin border-style(){
+  border-color: var(--theme-border);
+  border-style: var(--theme-border-style);
+
+}
+
+.gui{
+  background-color: transparent;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  *[data-visible] {
+    visibility: visible;
+  }
+  .win {
+    visibility: collapse;
+  }
+  .win[data-gui=modal]{
+    .head{
+
+    }
+    .body{
+
+    }
+  }
+  .slots{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .slot{
+
+  }
+  .tooltips{
+
+  }
+  .tooltip{
+
+  }
+  /*top of window*/
+  .head{
+    top: 0;
+  }
+  .body{
+
+  }
+  .foot{
+    bottom: 0;
+  }
+
+}
