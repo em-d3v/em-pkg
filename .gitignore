@@ -5,10 +5,13 @@
 **/.project
 **/.settings
 **/*.kra*
+/out
+/packages
 src/game
 build/
 *.css.map
 *.ts.map
+src/**/types/tsconfig.json
 
 # Logs
 logs
